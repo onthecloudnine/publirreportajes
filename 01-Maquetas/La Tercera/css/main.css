@@ -308,7 +308,7 @@ a:hover {
   }
 }
 header #header_lt { 
-    background-color: #c41325; 
+    background-color: #FFF; 
     display: block;
     height: auto;
 }
@@ -341,8 +341,8 @@ header #header_lt figure img {
     display: inline-block;
 }
 #header_lt nav ul li a {
-    background-color: #c41325;
-    color: #fff;
+    background-color: #FFF;
+    color: #555;
     display: block;
     font-size: 14px;
     line-height: 20px;
