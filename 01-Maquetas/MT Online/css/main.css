@@ -44,15 +44,15 @@ html, body {
   margin: 0;
   height: 100%;
 }
-body { 
+body {
     font: 20px PTSans;
-    font-family: 'PT Sans', sans-serif;   
+    font-family: 'PT Sans', sans-serif;
 }
 body > header {
     width: 100%;
     position: fixed;
-    top:0px; 
-    z-index: 1; 
+    top:0px;
+    z-index: 1;
 }
 * {
   -webkit-box-sizing: border-box;
@@ -307,8 +307,8 @@ a:hover {
     display: none !important;
   }
 }
-header #header_lt { 
-    background-color: #000; 
+header #header_lt {
+    background-color: #FFF;
     display: block;
     height: auto;
 }
@@ -345,8 +345,8 @@ header #header_lt figure img {
     display: inline-block;
 }
 #header_lt nav ul li a {
-    background: #000 url(http://mtonline.cl/wp-content/themes/motores-theme/images/separador.png) no-repeat right center;
-    color: #fff;
+    background: #FFF url(http://mtonline.cl/wp-content/themes/motores-theme/images/separador.png) no-repeat right center;
+    color: #000;
     display: block;
     font-size: 14px;
     line-height: 20px;
@@ -376,7 +376,7 @@ header #header_lt figure img {
 .box_share {
     padding-top: 15px;
     padding-left: 10px;
-    float:left;  
+    float:left;
 }
 .box_share a { color: #000; font-size: 28px; margin-right: 5px; }
 .box_share a:hover, .box_share a:focus { color: #333; }
@@ -396,13 +396,13 @@ header #header_lt figure img {
     padding-right: 5px;
     float:right;
 }
-article header { 
+article header {
     margin-top: 100px;
-    background-color:black;   
+    background-color:black;
 }
 article header figure {
     padding: 0px;
-    margin: 0px;  
+    margin: 0px;
 }
 article header figure img {
     width: 100%;
@@ -410,8 +410,8 @@ article header figure img {
 }
 article header figcaption {
     padding: 0px;
-    margin: 0px; 
-    background-color: black; 
+    margin: 0px;
+    background-color: black;
 }
 article header figcaption h1 {
     color:white;
@@ -426,7 +426,7 @@ article header figcaption h1 {
     width: 680px;
 }
 article header figcaption h1 span {
-   color:#ff9900;   
+   color:#ff9900;
 }
 article header figcaption p {
     text-align: center;
@@ -437,21 +437,21 @@ article header figcaption p {
     border-top:#ffffff solid 1px;
 }
 article main p {
-    
+
     font-size: 14pt;
     display: block;
 }
 article main p, article header figcaption p {
-       
+
     font-size: 16pt;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
     width: 650px;
 }
-article main .banner { 
-    float:right; 
+article main .banner {
+    float:right;
     margin-right: 20%;
-    
+
 }
 article main .img_full_width img, article main .img_normal_width img {
     width: 100%;
@@ -462,14 +462,14 @@ article main .img_full_width {
 }
 article main .img_normal_width {
     margin: 50px auto 50px auto;
-    width: 650px; 
+    width: 650px;
 }
 article main .video_full_width {
-    margin: 50px auto 50px auto;   
+    margin: 50px auto 50px auto;
 }
 article main .video_normal_width {
-    width: 650px; 
-    margin: 50px auto 50px auto; 
+    width: 650px;
+    margin: 50px auto 50px auto;
 }
 article main video {
     width: 100%;
@@ -617,7 +617,7 @@ p.browserupgrade a {
     .box_sponsor {
         float: none;
         padding: 0 15px;
-    }    
+    }
     .box_share {
         display: none;
     }
@@ -633,16 +633,16 @@ p.browserupgrade a {
     }
     article main p, article header figcaption p {
         margin-left: auto;
-        margin-right: auto; 
+        margin-right: auto;
         width: 90%;
     }
     article main .video_full_width {
-        margin: 50px auto 50px auto;   
+        margin: 50px auto 50px auto;
     }
 
     article main .video_normal_width {
-        width: 100%; 
-        margin: 50px auto 50px auto; 
+        width: 100%;
+        margin: 50px auto 50px auto;
     }
     article main .img_normal_width {
         margin: 50px auto 50px auto;
@@ -654,9 +654,9 @@ p.browserupgrade a {
         width: 100%;
     }
     article header figcaption p {
-        font-size: 16px; 
+        font-size: 16px;
     }
-    article main .banner { 
+    article main .banner {
         float:none;
         width: 300px;
         margin: 30px auto 30px auto;
@@ -670,9 +670,9 @@ p.browserupgrade a {
     body > header {
       position: initial;
     }
-    article header { 
+    article header {
         margin-top: 0px;
-        background-color:black;   
+        background-color:black;
     }
     header #header_lt figure img {
         height: 30px;
@@ -680,7 +680,7 @@ p.browserupgrade a {
     header #header_lt figure {
         padding: 5px 2px 4px;
     }
-    header #header_lt {  
+    header #header_lt {
         height: 40px;
-    }  
+    }
 }
